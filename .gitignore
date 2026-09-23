@@ -9,6 +9,9 @@ coverage/
 .DS_Store
 *.log
 .env*
+.env
+.env.local
+.env.production
 !.env.example
 !.env.docker.example
 !.env.railway.example
@@ -24,3 +27,4 @@ ENTREGA-SISTEMAS/
 public/storage/
 public/static-data/
 public/cmaps/
+dist/
