@@ -1,0 +1,2842 @@
+{
+  "documents": [
+    {
+      "id": "upload-1790179692948-w960d7",
+      "title": "EDREDONES ZAFIRO",
+      "description": "",
+      "category": "Complementos",
+      "pageCount": 18,
+      "coverUrl": "/storage/covers/upload-1790179692948-w960d7-1790179699039.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179692948-w960d7.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 66584280,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:08:21.947Z",
+      "indexItems": [
+        {
+          "id": "outline-1-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 2,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-diseno-1",
+          "title": "DISEÑO 1",
+          "pageNumber": 2,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 2,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 2,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 2,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 2,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-lado",
+          "title": "LADO",
+          "pageNumber": 2,
+          "level": 4,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-lado",
+          "title": "LADO",
+          "pageNumber": 2,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 3,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-diseno-2",
+          "title": "DISEÑO 2",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 3,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 3,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 3,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 3,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-lado",
+          "title": "LADO",
+          "pageNumber": 3,
+          "level": 4,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-lado",
+          "title": "LADO",
+          "pageNumber": 3,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 4,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-diseno-3",
+          "title": "DISEÑO 3",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 4,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 4,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 4,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 4,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-lado",
+          "title": "LADO",
+          "pageNumber": 4,
+          "level": 4,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-lado",
+          "title": "LADO",
+          "pageNumber": 4,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 5,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-diseno-4",
+          "title": "DISEÑO 4",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 5,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 5,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 5,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 5,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-lado",
+          "title": "LADO",
+          "pageNumber": 5,
+          "level": 4,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-lado",
+          "title": "LADO",
+          "pageNumber": 5,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 6,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-diseno-5",
+          "title": "DISEÑO 5",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 6,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 6,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 6,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 6,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 7,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-diseno-6",
+          "title": "DISEÑO 6",
+          "pageNumber": 7,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 7,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 7,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 7,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 7,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 8,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-diseno-7",
+          "title": "DISEÑO 7",
+          "pageNumber": 8,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 8,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 8,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 8,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 8,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 9,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-diseno-9",
+          "title": "DISEÑO 9",
+          "pageNumber": 9,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 9,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 9,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 9,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 9,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 10,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-diseno-10",
+          "title": "DISEÑO 10",
+          "pageNumber": 10,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 10,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 10,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 10,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 10,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 11,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-diseno-11",
+          "title": "DISEÑO 11",
+          "pageNumber": 11,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 11,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 11,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 11,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 11,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 12,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-diseno-12",
+          "title": "DISEÑO 12",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-disponible-en",
+          "title": "DISPONIBLE EN",
+          "pageNumber": 12,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-1-2-plaza",
+          "title": "1/2 Plaza",
+          "pageNumber": 12,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-2-plazas",
+          "title": "2 Plazas",
+          "pageNumber": 12,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-3-plazas",
+          "title": "3 Plazas",
+          "pageNumber": 12,
+          "level": 3,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-relieve",
+          "title": "Relieve",
+          "pageNumber": 13,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 14,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-zafiro-relieve",
+          "title": "ZÁFIRO RELIEVE",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-edredones",
+          "title": "EDREDONES",
+          "pageNumber": 15,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-zafiro-relieve",
+          "title": "ZÁFIRO RELIEVE",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-edredon-zafiro-llano",
+          "title": "EDREDÓN ZÁFIRO LLANO",
+          "pageNumber": 16,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-edredon-zafiro-llano",
+          "title": "EDREDÓN ZÁFIRO LLANO",
+          "pageNumber": 17,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-1800-chaide",
+          "title": "1800-CHAIDE",
+          "pageNumber": 18,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        }
+      ],
+      "order": 4,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790179687002-bdynfh",
+      "title": "DUVET ZAFIRO LLANOS",
+      "description": "",
+      "category": "Complementos",
+      "pageCount": 8,
+      "coverUrl": "/storage/covers/upload-1790179687002-bdynfh-1790179693883.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179687002-bdynfh.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 49215097,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:08:17.890Z",
+      "indexItems": [
+        {
+          "id": "auto-1-tela-elaborada-con-microfibra-suave-al-tacto",
+          "title": "Tela elaborada con microfibra suave al tacto",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-2-blanco",
+          "title": "BLANCO",
+          "pageNumber": 2,
+          "level": 0,
+          "source": "auto",
+          "score": 9
+        },
+        {
+          "id": "auto-3-celeste",
+          "title": "CELESTE",
+          "pageNumber": 3,
+          "level": 0,
+          "source": "auto",
+          "score": 9
+        },
+        {
+          "id": "auto-4-habano",
+          "title": "HABANO",
+          "pageNumber": 4,
+          "level": 0,
+          "source": "auto",
+          "score": 9
+        },
+        {
+          "id": "auto-5-plomo",
+          "title": "PLOMO",
+          "pageNumber": 5,
+          "level": 0,
+          "source": "auto",
+          "score": 9
+        },
+        {
+          "id": "auto-6-turquesa",
+          "title": "TURQUESA",
+          "pageNumber": 6,
+          "level": 0,
+          "source": "auto",
+          "score": 10
+        },
+        {
+          "id": "auto-7-violeta",
+          "title": "VIOLETA",
+          "pageNumber": 7,
+          "level": 0,
+          "source": "auto",
+          "score": 9
+        }
+      ],
+      "order": 5,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790179677004-cgsv6u",
+      "title": "COBIJAS CHAIDE",
+      "description": "",
+      "category": "Complementos",
+      "pageCount": 31,
+      "coverUrl": "/storage/covers/upload-1790179677004-cgsv6u-1790179688717.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179677004-cgsv6u.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 111322480,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:08:12.036Z",
+      "indexItems": [
+        {
+          "id": "outline-1-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-1-chaideoficial",
+          "title": "@chaideoficial",
+          "pageNumber": 1,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 2,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-diseno-1",
+          "title": "DISEÑO 1",
+          "pageNumber": 3,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-diseno-2",
+          "title": "DISEÑO 2",
+          "pageNumber": 4,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-diseno-3",
+          "title": "DISEÑO 3",
+          "pageNumber": 5,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-diseno-4",
+          "title": "DISEÑO 4",
+          "pageNumber": 6,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-diseno-5",
+          "title": "DISEÑO 5",
+          "pageNumber": 7,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 7,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 7,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 7,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 8,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-diseno-1",
+          "title": "DISEÑO 1",
+          "pageNumber": 9,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-medidas",
+          "title": "MEDIDAS",
+          "pageNumber": 9,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 9,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 9,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-diseno-2",
+          "title": "DISEÑO 2",
+          "pageNumber": 10,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-medidas",
+          "title": "MEDIDAS",
+          "pageNumber": 10,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 10,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 10,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 11,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-diseno-1",
+          "title": "DISEÑO 1",
+          "pageNumber": 12,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-diseno-2",
+          "title": "DISEÑO 2",
+          "pageNumber": 13,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 13,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 13,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 13,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-diseno-3",
+          "title": "DISEÑO 3",
+          "pageNumber": 14,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-diseno-4",
+          "title": "DISEÑO 4",
+          "pageNumber": 15,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-diseno-5",
+          "title": "DISEÑO 5",
+          "pageNumber": 16,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 16,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 16,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 16,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-coleccion",
+          "title": "COLECCIÓN",
+          "pageNumber": 17,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-anterior",
+          "title": "ANTERIOR",
+          "pageNumber": 17,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 18,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 18,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 18,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 19,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 19,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 19,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 20,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 20,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 20,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 21,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 21,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 21,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-medidas-viajera",
+          "title": "MEDIDAS Viajera",
+          "pageNumber": 22,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-2-plazas",
+          "title": "2 plazas",
+          "pageNumber": 22,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-3-plazas",
+          "title": "3 plazas",
+          "pageNumber": 22,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-23-growing",
+          "title": "Growing",
+          "pageNumber": 23,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-24-growing",
+          "title": "Growing",
+          "pageNumber": 24,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-24-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 24,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-24-diseno-4",
+          "title": "DISEÑO 4",
+          "pageNumber": 24,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-25-growing",
+          "title": "Growing",
+          "pageNumber": 25,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-25-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 25,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-25-diseno-5",
+          "title": "DISEÑO 5",
+          "pageNumber": 25,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-25-diseno-6",
+          "title": "DISEÑO 6",
+          "pageNumber": 25,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-26-growing",
+          "title": "Growing",
+          "pageNumber": 26,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-26-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 26,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-26-diseno-7",
+          "title": "DISEÑO 7",
+          "pageNumber": 26,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-26-diseno-8",
+          "title": "DISEÑO 8",
+          "pageNumber": 26,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-27-growing",
+          "title": "Growing",
+          "pageNumber": 27,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-27-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 27,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-27-diseno-9",
+          "title": "DISEÑO 9",
+          "pageNumber": 27,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-28-medida",
+          "title": "Medida",
+          "pageNumber": 28,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-28-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 28,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-28-baby-chaide",
+          "title": "BABY CHAIDE",
+          "pageNumber": 28,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-29-baby-chaide",
+          "title": "BABY CHAIDE",
+          "pageNumber": 29,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-30-baby-chaide",
+          "title": "BABY CHAIDE",
+          "pageNumber": 30,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-31-cobijas",
+          "title": "COBIJAS",
+          "pageNumber": 31,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        }
+      ],
+      "order": 2,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790179675025-6uu0th",
+      "title": "COBIJA ZAFIRO",
+      "description": "",
+      "category": "Fichas de Productos",
+      "pageCount": 1,
+      "coverUrl": "/storage/covers/upload-1790179675025-6uu0th-1790179685068.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179675025-6uu0th.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 5424563,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:08:07.739Z",
+      "indexItems": [
+        {
+          "id": "auto-1-obijas",
+          "title": "\u001eOBIJAS",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-1-zafiro",
+          "title": "Zafiro",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-1-antialergic-a-liviana-termica",
+          "title": "ANTIALÉRGIC A LIVIANA TÉRMICA",
+          "pageNumber": 1,
+          "level": 1,
+          "source": "auto",
+          "score": 11
+        },
+        {
+          "id": "auto-1-disponibles",
+          "title": "Disponibles",
+          "pageNumber": 1,
+          "level": 1,
+          "source": "auto",
+          "score": 11
+        }
+      ],
+      "externalUrl": "",
+      "priority": 5,
+      "order": 6,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790179671196-82qinl",
+      "title": "COBERTORES SUNSET",
+      "description": "",
+      "category": "Complementos",
+      "pageCount": 6,
+      "coverUrl": "/storage/covers/upload-1790179671196-82qinl-1790179676631.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179671196-82qinl.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 21569235,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:07:59.266Z",
+      "indexItems": [
+        {
+          "id": "outline-1-cobertores",
+          "title": "COBERTORES",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-cobertores",
+          "title": "COBERTORES",
+          "pageNumber": 2,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-diseno-3",
+          "title": "DISEÑO 3",
+          "pageNumber": 2,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-cobertores",
+          "title": "COBERTORES",
+          "pageNumber": 3,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-diseno-6",
+          "title": "DISEÑO 6",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-cobertores",
+          "title": "COBERTORES",
+          "pageNumber": 4,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-diseno-8",
+          "title": "DISEÑO 8",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-cobertores",
+          "title": "COBERTORES",
+          "pageNumber": 5,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-diseno-11",
+          "title": "DISEÑO 11",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-1800-chaide",
+          "title": "1800-CHAIDE",
+          "pageNumber": 6,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        }
+      ],
+      "order": 3,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790179666307-bq0qx6",
+      "title": "SÁBANAS ZAFIRO",
+      "description": "",
+      "category": "Complementos",
+      "pageCount": 23,
+      "coverUrl": "/storage/covers/upload-1790179666307-bq0qx6-1790179675116.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790179666307-bq0qx6.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 54024651,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T16:07:59.036Z",
+      "indexItems": [
+        {
+          "id": "outline-1-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-2-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 2,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 3,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-3-diseno",
+          "title": "Diseño",
+          "pageNumber": 3,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 4,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-diseno",
+          "title": "Diseño",
+          "pageNumber": 4,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-4-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 4,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 5,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-diseno",
+          "title": "Diseño",
+          "pageNumber": 5,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-5-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 5,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 6,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-6-diseno",
+          "title": "Diseño",
+          "pageNumber": 6,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 7,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-diseno",
+          "title": "Diseño",
+          "pageNumber": 7,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-7-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 7,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 8,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-altura-estandar",
+          "title": "ALTURA ESTÁNDAR",
+          "pageNumber": 8,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-8-diseno",
+          "title": "Diseño",
+          "pageNumber": 8,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-9-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 9,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 10,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 10,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-10-diseno",
+          "title": "Diseño",
+          "pageNumber": 10,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 11,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-diseno",
+          "title": "Diseño",
+          "pageNumber": 11,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-11-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 11,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 12,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-12-diseno",
+          "title": "Diseño",
+          "pageNumber": 12,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 13,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 13,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-13-diseno",
+          "title": "Diseño",
+          "pageNumber": 13,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 14,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-14-diseno",
+          "title": "Diseño",
+          "pageNumber": 14,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 15,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-15-diseno",
+          "title": "Diseño",
+          "pageNumber": 15,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 16,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-diseno",
+          "title": "Diseño",
+          "pageNumber": 16,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-16-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 16,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 17,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-diseno",
+          "title": "Diseño",
+          "pageNumber": 17,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-17-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 17,
+          "level": 2,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 18,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 18,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-18-diseno",
+          "title": "Diseño",
+          "pageNumber": 18,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 19,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 19,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-19-diseno",
+          "title": "Diseño",
+          "pageNumber": 19,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 20,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-altura-plus",
+          "title": "ALTURA PLUS",
+          "pageNumber": 20,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-20-diseno",
+          "title": "Diseño",
+          "pageNumber": 20,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-sabanas-llanas",
+          "title": "SÁBANAS LLANAS",
+          "pageNumber": 21,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-plomo",
+          "title": "PLOMO",
+          "pageNumber": 21,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-celeste",
+          "title": "CELESTE",
+          "pageNumber": 21,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-habano",
+          "title": "HABANO",
+          "pageNumber": 21,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-blanco",
+          "title": "BLANCO",
+          "pageNumber": 21,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-21-violeta",
+          "title": "VIOLETA",
+          "pageNumber": 21,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-fundas-de-almohada",
+          "title": "FUNDAS DE ALMOHADA",
+          "pageNumber": 22,
+          "level": 0,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-plomo",
+          "title": "PLOMO",
+          "pageNumber": 22,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-habano",
+          "title": "HABANO",
+          "pageNumber": 22,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-blanco",
+          "title": "BLANCO",
+          "pageNumber": 22,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-violeta",
+          "title": "VIOLETA",
+          "pageNumber": 22,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-22-celeste",
+          "title": "CELESTE",
+          "pageNumber": 22,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        },
+        {
+          "id": "outline-23-1800-chaide",
+          "title": "1800-CHAIDE",
+          "pageNumber": 23,
+          "level": 1,
+          "source": "outline",
+          "score": 20
+        }
+      ],
+      "externalUrl": "",
+      "priority": 5,
+      "order": 1,
+      "isFeatured": false
+    },
+    {
+      "id": "upload-1790171193440-x4e8t9",
+      "title": "FICHA ALMOHADA RELAX TRIP CONTOUR ",
+      "description": "",
+      "category": "Fichas de Productos",
+      "pageCount": 1,
+      "coverUrl": "/storage/covers/upload-1790171193440-x4e8t9-1790171198036.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790171193440-x4e8t9.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "technical-sheet",
+      "visibility": "public",
+      "fileSize": 1054056,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-23T13:46:40.371Z",
+      "indexItems": [
+        {
+          "id": "auto-1-relax-trip",
+          "title": "RELAX TRIP",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-1-almohada",
+          "title": "ALMOHADA",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 17
+        },
+        {
+          "id": "auto-1-contour",
+          "title": "CONTOUR",
+          "pageNumber": 1,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-1-dale-click",
+          "title": "DALE CLICK",
+          "pageNumber": 1,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-1-soporte-cervical-gran-suavidad",
+          "title": "SOPORTE CERVICAL GRAN SUAVIDAD",
+          "pageNumber": 1,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-1-medidas-diseno-ergonomico",
+          "title": "MEDIDAS DISEÑO ERGONÓMICO",
+          "pageNumber": 1,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        }
+      ],
+      "order": 7,
+      "isFeatured": false,
+      "externalUrl": "",
+      "priority": 5
+    },
+    {
+      "id": "upload-1790112621095-y9ncca",
+      "title": "CATALOGO TÉCNICO 2026",
+      "description": "",
+      "category": "Descanso",
+      "pageCount": 229,
+      "coverUrl": "/storage/covers/upload-1790112621095-y9ncca-1790113126374.jpg",
+      "fileUrl": "/storage/pdfs/upload-1790112621095-y9ncca.pdf",
+      "tags": [],
+      "status": "ready",
+      "sourceType": "upload",
+      "publicationType": "catalog",
+      "visibility": "public",
+      "fileSize": 63184080,
+      "storageProvider": "backblaze-b2",
+      "isActive": true,
+      "updatedAt": "2026-09-22T21:38:56.438Z",
+      "indexItems": [
+        {
+          "id": "auto-25-linea-premium",
+          "title": "LÍNEA PREMIUM",
+          "pageNumber": 25,
+          "level": 0,
+          "source": "auto",
+          "score": 13
+        },
+        {
+          "id": "auto-25-colchones",
+          "title": "COLCHONES",
+          "pageNumber": 25,
+          "level": 0,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-26-enfundados-individualmente-sentiras-un-descanso-",
+          "title": "enfundados individualmente, sentirás un descanso envolvente",
+          "pageNumber": 26,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-27-estructura-interna",
+          "title": "ESTRUCTURA INTERNA",
+          "pageNumber": 27,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-38-s-aqual",
+          "title": "S@AQUAL",
+          "pageNumber": 38,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-38-intermedio",
+          "title": "@ INTERMEDIO",
+          "pageNumber": 38,
+          "level": 0,
+          "source": "auto",
+          "score": 11
+        },
+        {
+          "id": "auto-38-individual",
+          "title": "@ INDIVIDUAL",
+          "pageNumber": 38,
+          "level": 0,
+          "source": "auto",
+          "score": 11
+        },
+        {
+          "id": "auto-39-medidas-disponibles",
+          "title": "MEDIDAS DISPONIBLES",
+          "pageNumber": 39,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-40-palace",
+          "title": "PALACE",
+          "pageNumber": 40,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-41-superficie-ocasionada-por-el-calor-corporal",
+          "title": "superficie ocasionada por el calor corporal",
+          "pageNumber": 41,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-44-",
+          "title": "\u001a\u001b \u0005\u0002\u0005\u0001\u0004\u0002\u0006\u0003\u0007",
+          "pageNumber": 44,
+          "level": 0,
+          "source": "auto",
+          "score": 13
+        },
+        {
+          "id": "auto-47-j",
+          "title": "\u001d\u0016 J \u001f\"\u0012\",\u001c\u0012,\u0014\u0012\u001c\u001a\u0015\u0012\u0015,\u0015\u0016\u001c,#%\u0016 « \u001f,',\"\u0016\u0015%\u0014\u0016,\u0016\u001c,\u0016#$\" £ #\u0004",
+          "pageNumber": 47,
+          "level": 1,
+          "source": "auto",
+          "score": 10
+        },
+        {
+          "id": "auto-51-linea-chaide",
+          "title": "LÍNEA CHAIDE",
+          "pageNumber": 51,
+          "level": 0,
+          "source": "auto",
+          "score": 13
+        },
+        {
+          "id": "auto-62-continental",
+          "title": "CONTINENTAL",
+          "pageNumber": 62,
+          "level": 0,
+          "source": "auto",
+          "score": 17
+        },
+        {
+          "id": "auto-62-doble-box-top",
+          "title": "DOBLE BOX TOP",
+          "pageNumber": 62,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-62-de-confort",
+          "title": "DE CONFORT*",
+          "pageNumber": 62,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-63-que-previene-alergias-y-brinda-un-descanso",
+          "title": "que previene alergias y brinda un descanso",
+          "pageNumber": 63,
+          "level": 1,
+          "source": "auto",
+          "score": 10
+        },
+        {
+          "id": "auto-64-pillow-top-ng",
+          "title": "PILLOW TOP NG",
+          "pageNumber": 64,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-65-medida-1-ancho-2-largo-3-altura",
+          "title": "MEDIDA 1. ANCHO 2. LARGO 3. ALTURA",
+          "pageNumber": 65,
+          "level": 2,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-66-non-flip-ng",
+          "title": "NON FLIP NG",
+          "pageNumber": 66,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-67-non-flip-antiacaros",
+          "title": "NON FLIP ANTIÁCAROS",
+          "pageNumber": 67,
+          "level": 2,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-68-tradicional-ng",
+          "title": "TRADICIONAL NG",
+          "pageNumber": 68,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-69-continental-continental",
+          "title": "CONTINENTAL CONTINENTAL",
+          "pageNumber": 69,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-71--",
+          "title": "\u001e\u0005 \u0014\u0019\u001f\u0015/\u0017\"!/'%\u0015'\u0015 \u001d\u0019!'\"/\u0011%\"\u0013\u001c\u001d\u0019\u001f\u0018\u0003/#%\"'\u0019\u0017\u0017\u001d-!",
+          "pageNumber": 71,
+          "level": 2,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-84-suave-brisa",
+          "title": "SUAVE BRISA",
+          "pageNumber": 84,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-85-antiacaros-y-antibacterias",
+          "title": "antiácaros y antibacterias",
+          "pageNumber": 85,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-95-y",
+          "title": "\u0002\u0018 \u0010 \u0005\u0015\u0005\u0018 \u0005\u0001\u0007\b \u0002\u0006\u0001\u0007\b \u0002\u0005 Y \u0012\u0012 \u0007\b",
+          "pageNumber": 95,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-109-cervical-memory-foam-dark",
+          "title": "CERVICAL MEMORY FOAM DARK",
+          "pageNumber": 109,
+          "level": 0,
+          "source": "auto",
+          "score": 14
+        },
+        {
+          "id": "auto-143-sabanas",
+          "title": "SÁBANAS",
+          "pageNumber": 143,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-143-gran-100",
+          "title": "GRAN 100%",
+          "pageNumber": 143,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-143-suavidad-algodon",
+          "title": "SUAVIDAD ALGODÓN",
+          "pageNumber": 143,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-144-medida-disponible",
+          "title": "MEDIDA DISPONIBLE",
+          "pageNumber": 144,
+          "level": 0,
+          "source": "auto",
+          "score": 13
+        },
+        {
+          "id": "auto-145-2-½-plazas",
+          "title": "2 ½ Plazas",
+          "pageNumber": 145,
+          "level": 2,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-170-muebles-de-dormitorio-camas",
+          "title": "MUEBLES DE DORMITORIO CAMAS",
+          "pageNumber": 170,
+          "level": 0,
+          "source": "auto",
+          "score": 22
+        },
+        {
+          "id": "auto-170-paris",
+          "title": "PARIS",
+          "pageNumber": 170,
+          "level": 0,
+          "source": "auto",
+          "score": 16
+        },
+        {
+          "id": "auto-170-de-liquidos",
+          "title": "DE LÍQUIDOS",
+          "pageNumber": 170,
+          "level": 1,
+          "source": "auto",
+          "score": 11
+        },
+        {
+          "id": "auto-179-innalambrica-innalambrica-innalambrica",
+          "title": "Innalámbrica Innalámbrica Innalámbrica",
+          "pageNumber": 179,
+          "level": 2,
+          "source": "auto",
+          "score": 8
+        },
+        {
+          "id": "auto-190-sofas-cama",
+          "title": "SOFÁS CAMA",
+          "pageNumber": 190,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-190-martinica",
+          "title": "MARTINICA",
+          "pageNumber": 190,
+          "level": 0,
+          "source": "auto",
+          "score": 13
+        },
+        {
+          "id": "auto-192-altura-de-cama",
+          "title": "ALTURA DE CAMA",
+          "pageNumber": 192,
+          "level": 2,
+          "source": "auto",
+          "score": 9
+        },
+        {
+          "id": "auto-193-munich-box",
+          "title": "MÚNICH BOX",
+          "pageNumber": 193,
+          "level": 0,
+          "source": "auto",
+          "score": 14
+        },
+        {
+          "id": "auto-194-foam-box",
+          "title": "FOAM BOX",
+          "pageNumber": 194,
+          "level": 0,
+          "source": "auto",
+          "score": 14
+        },
+        {
+          "id": "auto-195-3-para-disfrutar-tu",
+          "title": "3 PARA DISFRUTAR TU",
+          "pageNumber": 195,
+          "level": 0,
+          "source": "auto",
+          "score": 18
+        },
+        {
+          "id": "auto-195-sencillos-pasos",
+          "title": "SENCILLOS PASOS",
+          "pageNumber": 195,
+          "level": 0,
+          "source": "auto",
+          "score": 14
+        },
+        {
+          "id": "auto-195-blocks-fun",
+          "title": "BLOCKS FUN",
+          "pageNumber": 195,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-195-abre-desenrolla-crea-y-juega",
+          "title": "ABRE DESENROLLA CREA Y JUEGA",
+          "pageNumber": 195,
+          "level": 1,
+          "source": "auto",
+          "score": 12
+        },
+        {
+          "id": "auto-214-5-4",
+          "title": "\u0001 *5 4 \u0001\u0002 \u0005 \u0001\b\u0017 \u0013\u0017 \u0014\u0015\u0017 \u0006 \u0002\u0017 \u0001\u0002 \u0010\u0003\u0017 \u0003\b \u0016\u0004\u0017 \u0004 \u0005 \u0005\u0011\u0017 \u0006\u0007 \u000e\u000f\u0012\u0017",
+          "pageNumber": 214,
+          "level": 1,
+          "source": "auto",
+          "score": 7
+        },
+        {
+          "id": "auto-215-1-sabana",
+          "title": "1 SÁBANA",
+          "pageNumber": 215,
+          "level": 2,
+          "source": "auto",
+          "score": 9
+        }
+      ],
+      "order": 0,
+      "isFeatured": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1790179792644",
+      "name": "Fichas de Productos",
+      "slug": "fichas-de-productos",
+      "description": "",
+      "icon": "ShoppingCart",
+      "imageUrl": "",
+      "order": 0,
+      "createdAt": "2026-09-23T16:09:52.644Z",
+      "displayOrder": 5,
+      "updatedAt": "2026-09-23T16:59:37.874Z"
+    },
+    {
+      "id": "catalog-descanso",
+      "name": "Descanso",
+      "slug": "descanso",
+      "description": "Colchones, camas y soluciones para dormir mejor.",
+      "icon": "Moon",
+      "imageUrl": "",
+      "order": 10,
+      "active": true,
+      "keywords": [
+        "descanso",
+        "colchon",
+        "colchones",
+        "cama",
+        "dormitorio",
+        "sueno"
+      ],
+      "createdAt": "2026-05-19T13:32:31.683Z",
+      "updatedAt": "2026-09-23T16:59:37.851Z",
+      "displayOrder": 0
+    },
+    {
+      "id": "catalog-muebles",
+      "name": "Muebles",
+      "slug": "muebles",
+      "description": "Muebles para sala, dormitorio y espacios de descanso.",
+      "icon": "Sofa",
+      "imageUrl": "",
+      "order": 20,
+      "active": true,
+      "keywords": [
+        "muebles",
+        "mueble",
+        "sala",
+        "sofa",
+        "cabecera"
+      ],
+      "createdAt": "2026-05-19T13:32:31.683Z",
+      "updatedAt": "2026-09-23T16:59:37.861Z",
+      "displayOrder": 2
+    },
+    {
+      "id": "catalog-complementos",
+      "name": "Complementos",
+      "slug": "complementos",
+      "description": "Textiles y accesorios como sabanas, toallas, almohadas y protectores.",
+      "icon": "Package",
+      "imageUrl": "",
+      "order": 30,
+      "active": true,
+      "keywords": [
+        "complementos",
+        "complemento",
+        "textiles",
+        "textil",
+        "sabanas",
+        "toallas",
+        "cobertores",
+        "accesorios",
+        "almohadas",
+        "protectores"
+      ],
+      "createdAt": "2026-05-19T13:32:31.683Z",
+      "updatedAt": "2026-09-23T16:59:37.855Z",
+      "displayOrder": 1
+    },
+    {
+      "id": "catalog-hoteles",
+      "name": "Hoteles",
+      "slug": "hoteles",
+      "description": "Catalogos y productos para proyectos hoteleros.",
+      "icon": "Hotel",
+      "imageUrl": "",
+      "order": 40,
+      "active": true,
+      "keywords": [
+        "hoteles",
+        "hotel",
+        "hotelera",
+        "hotelero",
+        "hospitality"
+      ],
+      "createdAt": "2026-05-19T13:32:31.683Z",
+      "updatedAt": "2026-09-23T16:59:37.869Z",
+      "displayOrder": 4
+    },
+    {
+      "id": "catalog-espumas",
+      "name": "Espumas",
+      "slug": "espumas",
+      "description": "Espumas, confort tecnico y materiales de soporte.",
+      "icon": "Waves",
+      "imageUrl": "",
+      "order": 50,
+      "active": true,
+      "keywords": [
+        "espumas",
+        "espuma",
+        "foam",
+        "memory foam"
+      ],
+      "createdAt": "2026-05-19T13:32:31.683Z",
+      "updatedAt": "2026-09-23T16:59:37.866Z",
+      "displayOrder": 3
+    }
+  ],
+  "promotionalBanner": {
+    "imageUrl": "/anuncio%20web%20(3640x900)-01.png",
+    "mobileImageUrl": "/anuncio%20web%20(1700x1900).png",
+    "mobileIsActive": true,
+    "altText": "Anuncio promocional Chaide",
+    "targetUrl": "https://www.chaide.com/",
+    "isActive": true,
+    "updatedAt": "2026-06-19T02:20:52.811Z"
+  }
+}

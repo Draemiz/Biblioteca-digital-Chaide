@@ -1,0 +1,53 @@
+name: Verify and deploy Firebase site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+
+concurrency:
+  group: firebase-production
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      HAS_FIREBASE_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BIBLIOTECA_CATALOGOS_CHAIDE != '' }}
+      VITE_FIREBASE_SITE: 'true'
+      VITE_FIREBASE_ADMIN_EMAIL: catalogoschaide+chaide2026@gmail.com
+      VITE_CATALOGOS_DRIVE_URL: https://script.google.com/macros/s/AKfycbzNlZX-khCGU_UTJTTPUvJPRQ9ODQk3oLq5aqghyyyrakUqAyUJiZlrN3rzgVJzjRbA9w/exec
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build:firebase
+      - run: npm run verify:pdfs
+
+      - name: Authenticate Firebase deployment
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && env.HAS_FIREBASE_KEY == 'true'
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BIBLIOTECA_CATALOGOS_CHAIDE }}
+
+      - name: Deploy Firestore rules
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && env.HAS_FIREBASE_KEY == 'true'
+        run: npx firebase-tools@15.24.0 deploy --only firestore:rules --project biblioteca-catalogos-chaide --non-interactive
+
+      - name: Deploy Firebase Hosting
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && env.HAS_FIREBASE_KEY == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BIBLIOTECA_CATALOGOS_CHAIDE }}
+          channelId: live
+          projectId: biblioteca-catalogos-chaide

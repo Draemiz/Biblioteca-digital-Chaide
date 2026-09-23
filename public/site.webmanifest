@@ -1,0 +1,21 @@
+{
+  "name": "Chaide Biblioteca Digital",
+  "short_name": "Chaide",
+  "description": "Biblioteca digital de catálogos Chaide",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f2",
+  "theme_color": "#0757b8",
+  "icons": [
+    {
+      "src": "/chaide-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/chaide-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

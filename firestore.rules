@@ -1,0 +1,90 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email == 'catalogoschaide+chaide2026@gmail.com';
+    }
+
+    function isPublished(documentId) {
+      let path = /databases/$(database)/documents/documents/$(documentId);
+      return exists(path)
+        && get(path).data.status == 'ready'
+        && get(path).data.isActive == true
+        && get(path).data.visibility == 'public';
+    }
+
+    match /documents/{documentId} {
+      allow read: if isAdmin() || (
+        resource.data.status == 'ready'
+        && resource.data.isActive == true
+        && resource.data.visibility == 'public'
+      );
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /settings/{settingId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /pdfFiles/{fileId} {
+      allow read: if isAdmin() || isPublished(fileId);
+      allow create, update, delete: if isAdmin();
+
+      match /chunks/{chunkId} {
+        allow read: if isAdmin() || isPublished(fileId);
+        allow create, update, delete: if isAdmin();
+      }
+
+      match /versions/{versionId} {
+        allow read: if isAdmin() || isPublished(fileId);
+        allow create, update, delete: if isAdmin();
+      }
+    }
+
+    match /pdfSearchIndexes/{fileId} {
+      allow read: if isAdmin() || isPublished(fileId);
+      allow create, update, delete: if isAdmin();
+
+      match /pages/{pageId} {
+        allow read: if isAdmin() || isPublished(fileId);
+        allow create, update, delete: if isAdmin();
+      }
+    }
+
+    match /catalogSearchPages/{pageId} {
+      allow read: if isAdmin() || resource.data.isPublic == true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /catalogSearchMeta/{metaId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /admins/{userId} {
+      allow read, create, update: if isAdmin() && request.auth.uid == userId;
+      allow delete: if false;
+    }
+
+    match /auditLogs/{logId} {
+      allow read, create: if isAdmin();
+      allow update, delete: if false;
+    }
+
+    match /maintenanceTasks/{taskId} {
+      allow read, create, update, delete: if isAdmin();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+name: Encrypted Firestore metadata backup
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Authenticate backup service
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BIBLIOTECA_CATALOGOS_CHAIDE }}
+
+      - name: Export private metadata
+        run: npm run backup:firestore
+
+      - name: Encrypt backup
+        env:
+          FIRESTORE_BACKUP_ENCRYPTION_KEY: ${{ secrets.FIRESTORE_BACKUP_ENCRYPTION_KEY }}
+        run: npm run backup:encrypt
+
+      - name: Upload encrypted recovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: firestore-encrypted-${{ github.run_id }}
+          path: backups/private/encrypted/*.enc
+          if-no-files-found: error
+          retention-days: 30

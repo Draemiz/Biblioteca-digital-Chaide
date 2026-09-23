@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+dist-pages/
+.firebase/
+tmp/
+backups/private/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+!.env.docker.example
+!.env.railway.example
+!.env.server.example
+# Runtime data & logs
+data/logs.txt
+data/logs/
+# Relocated one-off patch scripts (kept out of the tree)
+_legacy_scripts/
+# Local delivery package (contains a large zip; do not commit)
+ENTREGA-SISTEMAS/
+# Generated only for the GitHub Pages build
+public/storage/
+public/static-data/
+public/cmaps/

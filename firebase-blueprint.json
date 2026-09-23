@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Document": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "category": { "type": "string" },
+        "pageCount": { "type": "number" },
+        "coverUrl": { "type": "string" },
+        "fileUrl": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "priority": { "type": "number" },
+        "status": { "type": "string" },
+        "isFeatured": { "type": "boolean" }
+      }
+    },
+    "Category": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/documents/{documentId}": {
+      "schema": "Document",
+      "description": "Stores documents uploaded by users"
+    },
+    "/categories/{categoryId}": {
+      "schema": "Category",
+      "description": "Stores categorization for documents"
+    }
+  }
+}

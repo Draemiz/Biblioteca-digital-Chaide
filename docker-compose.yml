@@ -1,0 +1,69 @@
+networks:
+  traefik-net:
+    external: true
+
+volumes:
+  catalogos_data:
+  catalogos_storage:
+
+services:
+  catalogos-pdf:
+    image: tapia10710/catalogos-pdf:latest
+    container_name: catalogos_pdf_prod
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - ADMIN_USERNAME=${ADMIN_USERNAME}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
+      - COOKIE_SECURE=${COOKIE_SECURE:-true}
+    volumes:
+      - catalogos_data:/app/data
+      - catalogos_storage:/app/storage
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"require('http').get('http://localhost:3000/api/health', (r) => { process.exit(r.statusCode === 200 ? 0 : 1); }).on('error', () => process.exit(1));\""]
+      interval: 30s
+      timeout: 10s
+      start_period: 40s
+      retries: 3
+    networks:
+      - traefik-net
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik-net"
+      - "traefik.http.services.catalogos-pdf.loadbalancer.server.port=3000"
+      - "traefik.http.routers.catalogos-spa.rule=Host(`apps.chaide.com`) && PathPrefix(`/catalogos`)"
+      - "traefik.http.routers.catalogos-spa.entrypoints=websecure"
+      - "traefik.http.routers.catalogos-spa.tls=true"
+      - "traefik.http.routers.catalogos-spa.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.catalogos-spa.middlewares=catalogos-strip"
+      - "traefik.http.routers.catalogos-spa.service=catalogos-pdf"
+      - "traefik.http.routers.catalogos-spa.priority=8000"
+      - "traefik.http.middlewares.catalogos-strip.stripprefix.prefixes=/catalogos"
+      - "traefik.http.routers.catalogos-api.rule=Host(`apps.chaide.com`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.catalogos-api.entrypoints=websecure"
+      - "traefik.http.routers.catalogos-api.tls=true"
+      - "traefik.http.routers.catalogos-api.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.catalogos-api.service=catalogos-pdf"
+      - "traefik.http.routers.catalogos-api.priority=9000"
+      - "traefik.http.routers.catalogos-storage.rule=Host(`apps.chaide.com`) && PathPrefix(`/storage`)"
+      - "traefik.http.routers.catalogos-storage.entrypoints=websecure"
+      - "traefik.http.routers.catalogos-storage.tls=true"
+      - "traefik.http.routers.catalogos-storage.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.catalogos-storage.service=catalogos-pdf"
+      - "traefik.http.routers.catalogos-storage.priority=9000"
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: catalogos_watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/admcliente/.docker/config.json:/config.json:ro
+    environment:
+      - WATCHTOWER_POLL_INTERVAL=60
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_NO_STARTUP_MESSAGE=true
+    networks:
+      - traefik-net

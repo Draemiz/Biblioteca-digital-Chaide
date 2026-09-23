@@ -1,0 +1,20 @@
+services:
+  catalogos-pdf-dev:
+    image: catalogos-pdf:dev
+    container_name: catalogos_pdf_dev
+    build:
+      context: .
+      args:
+        - VITE_BASE_PATH=/
+    environment:
+      - NODE_ENV=production
+      - DEV_MODE=true
+    ports:
+      - "3003:3000"
+    volumes:
+      - catalogos_data_dev:/app/data
+      - catalogos_storage_dev:/app/storage
+
+volumes:
+  catalogos_data_dev:
+  catalogos_storage_dev:
