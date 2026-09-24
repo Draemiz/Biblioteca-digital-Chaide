@@ -81,7 +81,7 @@ export default function SidebarDrawer() {
           </a>
 
           {categories
-            .filter((category) => category.active !== false)
+            .filter((category) => category.active !== false && !category.parentId)
             .sort(compareCategoryOrder)
             .map((category) => (
               <a
@@ -106,4 +106,3 @@ export default function SidebarDrawer() {
     </>
   );
 }
-

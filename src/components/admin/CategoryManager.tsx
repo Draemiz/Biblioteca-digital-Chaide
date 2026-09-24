@@ -2,6 +2,7 @@ import { compareCategoryOrder } from '../../lib/catalogCategories';
 import React, { useState, useEffect } from 'react';
 import { useStore, Category } from '../../store/useStore';
 import { isFirebaseSite } from '../../lib/runtimeConfig';
+import { categoryBranch } from '../../lib/categoryHierarchy';
 import { 
   Plus, Edit2, Trash2, Tag, X, Check,
 } from 'lucide-react';
@@ -41,6 +42,7 @@ export default function CategoryManager() {
   const [editingCategory, setEditingCategory] = useState<Category | null>(null);
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
+  const [parentId, setParentId] = useState('');
   const [draggedId, setDraggedId] = useState<string | null>(null);
   const [dropId, setDropId] = useState<string | null>(null);
   const [savingOrder, setSavingOrder] = useState(false);
@@ -93,6 +95,7 @@ export default function CategoryManager() {
   useEffect(() => {
     if (editingCategory) {
       setName(editingCategory.name);
+      setParentId(editingCategory.parentId || '');
       setSlug(editingCategory.slug);
       setDescription(editingCategory.description || '');
       setIconKey(editingCategory.icon || '');
@@ -134,6 +137,7 @@ export default function CategoryManager() {
     
     const catData = {
       name,
+      parentId: parentId || null,
       slug,
       description,
       icon: iconKey,
@@ -141,18 +145,22 @@ export default function CategoryManager() {
       order: editingCategory ? order : Math.max(50, ...categories.map((category) => category.order ?? 0)) + 1,
     } as Category;
 
-    if (editingCategory) {
-      await updateCategory(editingCategory.id, catData);
-    } else {
-      await addCategory(catData);
+    try {
+      if (editingCategory) {
+        await updateCategory(editingCategory.id, catData);
+      } else {
+        await addCategory(catData);
+      }
+      resetForm();
+    } catch (error) {
+      setOrderMessage(error instanceof Error ? error.message : 'No se pudo guardar la categoría.');
     }
-    
-    resetForm();
   };
 
   const resetForm = () => {
     setEditingCategory(null);
     setName('');
+    setParentId('');
     setSlug('');
     setDescription('');
     setIconKey('Tag');
@@ -197,6 +205,15 @@ export default function CategoryManager() {
       {isFormOpen && (
         <div className="p-6 bg-white/[0.04] border-b border-white/5">
           <form onSubmit={handleSave} className="space-y-6">
+            <label className="block text-sm text-gray-300">Categoría principal
+              <select value={parentId} onChange={event => setParentId(event.target.value)} disabled={isEditingBaseCategory}
+                className="mt-2 block w-full rounded-xl border border-white/10 bg-[#0B0F19] px-4 py-2.5 text-white">
+                <option value="">Ninguna — categoría independiente</option>
+                {categories.filter(item => item.active !== false && (!editingCategory || !categoryBranch(categories, editingCategory.id).some(child => child.id === item.id)))
+                  .sort(compareCategoryOrder).map(item => <option key={item.id} value={item.id}>{item.name}</option>)}
+              </select>
+              <span className="mt-1 block text-xs text-gray-400">Elige una categoría para crear una subcategoría dentro de ella.</span>
+            </label>
             <div className="flex items-center justify-between">
               <h3 className="text-lg font-medium text-white">
                 {editingCategory ? 'Editar Categoría' : 'Nueva Categoría'}
@@ -344,7 +361,7 @@ export default function CategoryManager() {
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-gray-500">/{cat.slug}</p>
+                  <p className="text-xs text-gray-500">{cat.parentId ? `Dentro de ${categories.find(item => item.id === cat.parentId)?.name || ''}` : 'Categoría principal'} · /{cat.slug}</p>
                 </div>
               </div>
               <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">

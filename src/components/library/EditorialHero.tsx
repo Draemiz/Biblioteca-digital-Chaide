@@ -66,21 +66,15 @@ function splitHeroTitle(title: string) {
 }
 
 function getHeroCategoryLabel(doc: DocumentDef, categories: ReturnType<typeof useStore.getState>['categories']) {
-  const contentText = normalizeCatalogText([
-    doc.title,
-    doc.description,
-    ...(doc.tags || []),
-    ...((doc.indexItems || []).map((item: any) => item?.title || '')),
-  ].filter(Boolean).join(' '));
-
-  const matchedStaticCategory = catalogCategories.find((category) =>
-    category.keywords.some((keyword) => contentText.includes(normalizeCatalogText(keyword)))
-  );
-  const editableCategory =
-    categories.find((category) => category.slug === matchedStaticCategory?.slug) ||
-    categories.find((category) => normalizeCatalogText(category.name) === normalizeCatalogText(doc.category || ''));
-
-  return editableCategory?.name || matchedStaticCategory?.label || cleanText(doc.category, 'Catalogo');
+  let category = categories.find((item) => normalizeCatalogText(item.name) === normalizeCatalogText(doc.category || ''));
+  const visited = new Set<string>();
+  while (category?.parentId && !visited.has(category.id)) {
+    visited.add(category.id);
+    const parent = categories.find((item) => item.id === category?.parentId);
+    if (!parent) break;
+    category = parent;
+  }
+  return category?.name || cleanText(doc.category, 'Catálogo');
 }
 
 function HeroCoverImage({ src, alt }: { src: string; alt: string }) {
@@ -143,7 +137,7 @@ export default function EditorialHero({ doc }: EditorialHeroProps) {
   const categoryLabel = getHeroCategoryLabel(doc, categories);
   const heroCategories = useMemo(() => {
     const editableCategories = [...categories]
-      .filter((category) => category.active !== false)
+      .filter((category) => category.active !== false && !category.parentId)
       .sort(compareCategoryOrder);
 
     if (editableCategories.length > 0) return editableCategories;
@@ -338,4 +332,3 @@ export default function EditorialHero({ doc }: EditorialHeroProps) {
     </section>
   );
 }
-

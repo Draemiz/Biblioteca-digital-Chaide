@@ -1,46 +1,11 @@
 import type { DocumentDef } from './mockData';
 
 export const catalogCategories = [
-  {
-    label: 'Descanso',
-    slug: 'descanso',
-    description: 'Colchones, camas y soluciones para dormir mejor.',
-    icon: 'Moon',
-    order: 10,
-    keywords: ['descanso', 'colchon', 'colchones', 'cama', 'dormitorio', 'sueno'],
-  },
-  {
-    label: 'Muebles',
-    slug: 'muebles',
-    description: 'Muebles para sala, dormitorio y espacios de descanso.',
-    icon: 'Sofa',
-    order: 20,
-    keywords: ['muebles', 'mueble', 'sala', 'sofa', 'cabecera'],
-  },
-  {
-    label: 'Complementos',
-    slug: 'complementos',
-    description: 'Textiles y accesorios como sabanas, toallas, almohadas y protectores.',
-    icon: 'Package',
-    order: 30,
-    keywords: ['complementos', 'complemento', 'textiles', 'textil', 'sabanas', 'sabana', 'toallas', 'cobijas', 'cobija', 'cobertores', 'duvet', 'edredones', 'edredon', 'telas', 'tela', 'accesorios', 'almohadas', 'protectores'],
-  },
-  {
-    label: 'Hoteles',
-    slug: 'hoteles',
-    description: 'Catalogos y productos para proyectos hoteleros.',
-    icon: 'Hotel',
-    order: 40,
-    keywords: ['hoteles', 'hotel', 'hotelera', 'hotelero', 'hospitality'],
-  },
-  {
-    label: 'Espumas',
-    slug: 'espumas',
-    description: 'Espumas, confort tecnico y materiales de soporte.',
-    icon: 'Waves',
-    order: 50,
-    keywords: ['espumas', 'espuma', 'foam', 'memory foam'],
-  },
+  { label: 'Catálogo de Productos', slug: 'catalogo-de-productos', description: 'Catálogos de productos Chaide.', icon: 'Layers', order: 10, keywords: ['productos'] },
+  { label: 'Catálogo de Distribuidores', slug: 'catalogo-de-distribuidores', description: 'Material para distribuidores.', icon: 'Waves', order: 20, keywords: ['distribuidores'] },
+  { label: 'Fichas de Productos e Innovaciones', slug: 'fichas-de-productos-e-innovaciones', description: 'Fichas técnicas y novedades de productos.', icon: 'Cloud', order: 30, keywords: ['fichas'] },
+  { label: 'Crédito', slug: 'credito', description: 'Información y documentos de crédito.', icon: 'Layout', order: 40, keywords: ['credito'] },
+  { label: 'Catálogos y Fichas Tempur', slug: 'catalogos-y-fichas-tempur', description: 'Catálogos y fichas de Tempur.', icon: 'Bed', order: 50, keywords: ['tempur'] },
 ] as const;
 
 export type CatalogCategory = (typeof catalogCategories)[number];

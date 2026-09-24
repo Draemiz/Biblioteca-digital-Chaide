@@ -3165,3 +3165,44 @@ body {
     gap: 22px 14px !important;
   }
 }
+
+/* Horizontal category labels, matching the editorial homepage reference. */
+.editorial-category-item span {
+  writing-mode: horizontal-tb;
+  transform: none;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+@media (min-width: 1181px) {
+  .editorial-hero:not(.editorial-hero--short) .editorial-hero-inner {
+    grid-template-columns: minmax(0, 1.15fr) 220px minmax(0, 1fr);
+  }
+  .editorial-hero:not(.editorial-hero--short) .catalog-cover {
+    width: 100%;
+    max-width: 100%;
+  }
+  .editorial-hero .editorial-category-rail {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 28px;
+    justify-items: stretch;
+  }
+  .editorial-hero .editorial-category-item {
+    grid-template-columns: 28px minmax(0, 1fr);
+    width: 100%;
+    gap: 12px;
+  }
+  .editorial-hero .editorial-category-item span {
+    font-size: 10px;
+    writing-mode: horizontal-tb;
+    transform: none;
+    text-align: left;
+    overflow-wrap: normal;
+  }
+  .editorial-hero:not(.editorial-hero--short) .editorial-copy-zone {
+    width: 100%;
+    min-width: 0;
+  }
+}

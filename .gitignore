@@ -1,4 +1,6 @@
 node_modules/
+.vercel/
+*.bak
 build/
 dist/
 dist-pages/

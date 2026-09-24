@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
+    "build:vercel": "node scripts/build-vercel.mjs",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "build:firebase": "node scripts/prepare-static-site.mjs && vite build --mode firebase",
     "build:pages": "node scripts/prepare-static-site.mjs && vite build --outDir dist-pages",

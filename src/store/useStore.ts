@@ -73,6 +73,7 @@ function getStoredUser(): User | null {
 }
 
 export interface Category {
+  parentId?: string | null;
   displayOrder?: number;
   id: string;
   name: string;
@@ -263,12 +264,14 @@ export const useStore = create<AppState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(cat)
       });
+      if (!res.ok) throw new Error((await res.json()).error || 'No se pudo guardar la categoría.');
       if (res.ok) {
         const newCat = await res.json();
         set((state) => ({ categories: [...state.categories, newCat] }));
       }
     } catch (e) {
       console.error(e);
+      throw e;
     }
   },
   updateCategory: async (id, cat) => {
@@ -288,12 +291,14 @@ export const useStore = create<AppState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(cat)
       });
+      if (!res.ok) throw new Error((await res.json()).error || 'No se pudo guardar la categoría.');
       if (res.ok) {
         const updatedCat = await res.json();
         set((state) => ({ categories: state.categories.map(c => c.id === id ? updatedCat : c) }));
       }
     } catch (e) {
       console.error(e);
+      throw e;
     }
   },
   removeCategory: async (id) => {

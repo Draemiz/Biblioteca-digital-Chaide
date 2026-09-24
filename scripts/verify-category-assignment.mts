@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { catalogCategories, documentMatchesCatalogCategory } from '../src/lib/catalogCategories.ts';
+import { documentMatchesCatalogCategory } from '../src/lib/catalogCategories.ts';
+const catalogCategories = [{ label: 'Descanso', slug: 'descanso' }, { label: 'Muebles', slug: 'muebles' }, { label: 'Espumas', slug: 'espumas' }];
 import type { DocumentDef } from '../src/lib/mockData.ts';
 
 const document: DocumentDef = {

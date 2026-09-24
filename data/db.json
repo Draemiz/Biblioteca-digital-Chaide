@@ -1518,7 +1518,7 @@
       "id": "upload-1790179675025-6uu0th",
       "title": "COBIJA ZAFIRO",
       "description": "",
-      "category": "Fichas de Productos",
+      "category": "Fichas de Productos e Innovaciones",
       "pageCount": 1,
       "coverUrl": "/storage/covers/upload-1790179675025-6uu0th-1790179685068.jpg",
       "fileUrl": "/storage/pdfs/upload-1790179675025-6uu0th.pdf",
@@ -2236,7 +2236,7 @@
       "id": "upload-1790171193440-x4e8t9",
       "title": "FICHA ALMOHADA RELAX TRIP CONTOUR ",
       "description": "",
-      "category": "Fichas de Productos",
+      "category": "Fichas de Productos e Innovaciones",
       "pageCount": 1,
       "coverUrl": "/storage/covers/upload-1790171193440-x4e8t9-1790171198036.jpg",
       "fileUrl": "/storage/pdfs/upload-1790171193440-x4e8t9.pdf",
@@ -2713,18 +2713,6 @@
   ],
   "categories": [
     {
-      "id": "cat-1790179792644",
-      "name": "Fichas de Productos",
-      "slug": "fichas-de-productos",
-      "description": "",
-      "icon": "ShoppingCart",
-      "imageUrl": "",
-      "order": 0,
-      "createdAt": "2026-09-23T16:09:52.644Z",
-      "displayOrder": 5,
-      "updatedAt": "2026-09-23T16:59:37.874Z"
-    },
-    {
       "id": "catalog-descanso",
       "name": "Descanso",
       "slug": "descanso",
@@ -2743,7 +2731,25 @@
       ],
       "createdAt": "2026-05-19T13:32:31.683Z",
       "updatedAt": "2026-09-23T16:59:37.851Z",
-      "displayOrder": 0
+      "displayOrder": 0,
+      "parentId": "catalog-catalogo-de-productos"
+    },
+    {
+      "id": "catalog-catalogo-de-productos",
+      "name": "Catálogo de Productos",
+      "slug": "catalogo-de-productos",
+      "description": "Catálogos de productos Chaide.",
+      "icon": "Layers",
+      "order": 10,
+      "displayOrder": 10,
+      "parentId": null,
+      "active": true,
+      "imageUrl": "",
+      "keywords": [
+        "productos"
+      ],
+      "createdAt": "2026-09-24T15:35:08.405Z",
+      "updatedAt": "2026-09-24T15:35:08.405Z"
     },
     {
       "id": "catalog-muebles",
@@ -2763,7 +2769,42 @@
       ],
       "createdAt": "2026-05-19T13:32:31.683Z",
       "updatedAt": "2026-09-23T16:59:37.861Z",
-      "displayOrder": 2
+      "displayOrder": 2,
+      "parentId": "catalog-catalogo-de-productos"
+    },
+    {
+      "id": "catalog-catalogo-de-distribuidores",
+      "name": "Catálogo de Distribuidores",
+      "slug": "catalogo-de-distribuidores",
+      "description": "Material para distribuidores.",
+      "icon": "Waves",
+      "order": 20,
+      "displayOrder": 20,
+      "parentId": null,
+      "active": true,
+      "imageUrl": "",
+      "keywords": [
+        "distribuidores"
+      ],
+      "createdAt": "2026-09-24T15:35:08.405Z",
+      "updatedAt": "2026-09-24T15:35:08.405Z"
+    },
+    {
+      "id": "cat-1790179792644",
+      "name": "Fichas de Productos e Innovaciones",
+      "slug": "fichas-de-productos-e-innovaciones",
+      "description": "Fichas técnicas y novedades de productos.",
+      "icon": "Cloud",
+      "imageUrl": "",
+      "order": 30,
+      "createdAt": "2026-09-23T16:09:52.644Z",
+      "displayOrder": 30,
+      "updatedAt": "2026-09-23T16:59:37.874Z",
+      "parentId": null,
+      "active": true,
+      "keywords": [
+        "fichas"
+      ]
     },
     {
       "id": "catalog-complementos",
@@ -2788,7 +2829,8 @@
       ],
       "createdAt": "2026-05-19T13:32:31.683Z",
       "updatedAt": "2026-09-23T16:59:37.855Z",
-      "displayOrder": 1
+      "displayOrder": 1,
+      "parentId": "catalog-catalogo-de-productos"
     },
     {
       "id": "catalog-hoteles",
@@ -2808,7 +2850,25 @@
       ],
       "createdAt": "2026-05-19T13:32:31.683Z",
       "updatedAt": "2026-09-23T16:59:37.869Z",
-      "displayOrder": 4
+      "displayOrder": 4,
+      "parentId": "catalog-catalogo-de-productos"
+    },
+    {
+      "id": "catalog-credito",
+      "name": "Crédito",
+      "slug": "credito",
+      "description": "Información y documentos de crédito.",
+      "icon": "Layout",
+      "order": 40,
+      "displayOrder": 40,
+      "parentId": null,
+      "active": true,
+      "imageUrl": "",
+      "keywords": [
+        "credito"
+      ],
+      "createdAt": "2026-09-24T15:35:08.405Z",
+      "updatedAt": "2026-09-24T15:35:08.405Z"
     },
     {
       "id": "catalog-espumas",
@@ -2827,7 +2887,25 @@
       ],
       "createdAt": "2026-05-19T13:32:31.683Z",
       "updatedAt": "2026-09-23T16:59:37.866Z",
-      "displayOrder": 3
+      "displayOrder": 3,
+      "parentId": "catalog-catalogo-de-productos"
+    },
+    {
+      "id": "catalog-catalogos-y-fichas-tempur",
+      "name": "Catálogos y Fichas Tempur",
+      "slug": "catalogos-y-fichas-tempur",
+      "description": "Catálogos y fichas de Tempur.",
+      "icon": "Bed",
+      "order": 50,
+      "displayOrder": 50,
+      "parentId": null,
+      "active": true,
+      "imageUrl": "",
+      "keywords": [
+        "tempur"
+      ],
+      "createdAt": "2026-09-24T15:35:08.405Z",
+      "updatedAt": "2026-09-24T15:35:08.405Z"
     }
   ],
   "promotionalBanner": {
@@ -2838,5 +2916,6 @@
     "targetUrl": "https://www.chaide.com/",
     "isActive": true,
     "updatedAt": "2026-06-19T02:20:52.811Z"
-  }
+  },
+  "categoryHierarchyVersion": 1
 }

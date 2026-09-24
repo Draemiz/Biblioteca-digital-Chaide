@@ -24,7 +24,7 @@ export default function CategoriesPage() {
         </header>
 
         <section className="category-catalog-grid">
-          {categories.filter((category) => category.active !== false).sort(compareCategoryOrder).map((category) => {
+          {categories.filter((category) => category.active !== false && !category.parentId).sort(compareCategoryOrder).map((category) => {
             const Icon = getCategoryIconComponent(category.icon);
             
             return (

@@ -26,6 +26,7 @@ export const FIREBASE_ADMIN_USERNAME =
   (import.meta.env.VITE_FIREBASE_ADMIN_USERNAME || 'Chaide2026').trim();
 
 type CategoryLike = {
+  parentId?: string | null;
   id: string;
   name: string;
   slug: string;

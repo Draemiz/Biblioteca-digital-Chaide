@@ -17,6 +17,7 @@ import {
 } from "@aws-sdk/client-s3";
 import { Upload } from "@aws-sdk/lib-storage";
 import { catalogCategories } from "./src/lib/catalogCategories";
+import { migrateCategoryHierarchy, categoryBranch } from "./src/lib/categoryHierarchy";
 
 const pexecFile = promisify(execFile);
 
@@ -1300,6 +1301,10 @@ async function startServer() {
      }
   };
 
+  if (!memoryDb.categoryHierarchyVersion) {
+    if (fs.existsSync(dbPath)) fs.copyFileSync(dbPath, `${dbPath}.before-category-hierarchy-${Date.now()}.bak`);
+    if (migrateCategoryHierarchy(memoryDb)) saveDb(memoryDb);
+  }
   if (ensureDefaultCategories(memoryDb)) {
     saveDb(memoryDb);
     console.log("[DB REPAIR] Added default catalog categories.");
@@ -1838,6 +1843,8 @@ async function startServer() {
     try {
       const db = getDb();
       if (!db.categories) db.categories = [];
+      if (req.body.parentId && !db.categories.some((item: any) => item.id === req.body.parentId)) return res.status(400).json({ error: 'Categoría principal no encontrada.' });
+      if (db.categories.some((item: any) => item.slug === req.body.slug || item.name === req.body.name)) return res.status(400).json({ error: 'Ya existe una categoría con ese nombre o dirección.' });
       
       const newCat = {
         id: `cat-${Date.now()}`,
@@ -1861,6 +1868,17 @@ async function startServer() {
         const currentCategory = db.categories[index];
         const previousImageUrl = currentCategory.imageUrl;
         const updates = { ...req.body };
+        if (updates.parentId && (!db.categories.some((item: any) => item.id === updates.parentId) || categoryBranch(db.categories, currentCategory.id).some((item: any) => item.id === updates.parentId))) {
+          return res.status(400).json({ error: 'La categoría principal no es válida.' });
+        }
+        if (db.categories.some((item: any) => item.id !== currentCategory.id && ((updates.name && item.name === updates.name) || (updates.slug && item.slug === updates.slug)))) {
+          return res.status(400).json({ error: 'Ya existe una categoría con ese nombre o dirección.' });
+        }
+        if (updates.name && updates.name !== currentCategory.name) {
+          db.documents.forEach((document: any) => {
+            if (document.category === currentCategory.name) document.category = updates.name;
+          });
+        }
 
         if (isDefaultCategory(currentCategory)) {
           updates.slug = currentCategory.slug;
